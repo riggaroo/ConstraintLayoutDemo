@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ConstraintLayoutDemo</string>
+    <string name="rent">Rent from R29.99</string>
+    <string name="buy">Buy from R129.99</string>
+    <string name="template_movie_details">March 2017 PG 129 minutes</string>
+    <string name="template_movie_title">Beauty and the Beast</string>
+    <string name="template_movie_genre">Family</string>
+    <string name="template_rotten_tomato_rating">71%</string>
+    <string name="template_similar">Similar</string>
+    <string name="template_movie_description">The story and characters you know and love come to spectacular life in the live-action adaption of Disney\'s animated classic Beauty and the Beast.</string>
+    <string name="template_number_ratings">242 ratings</string>
+    <string name="content_description_add_playlist">Add to watchlist</string>
+    <string name="content_description_poster">Movie Poster Image</string>
+    <string name="content_description_hero_image">Hero Image</string>
+</resources>

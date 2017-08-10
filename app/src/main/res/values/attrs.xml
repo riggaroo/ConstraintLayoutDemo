@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MovieRatingView">
+        <attr name="rating" format="float" />
+        <attr name="backgroundColor" format="color" />
+    </declare-styleable>
+
+</resources>
