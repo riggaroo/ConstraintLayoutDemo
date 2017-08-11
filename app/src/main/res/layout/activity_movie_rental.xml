@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<!--<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent">-->
 
     <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/constraint_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -112,7 +113,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:barrierDirection="bottom"
-            app:constraint_referenced_ids="imageView2,textview_movie_details" />
+            app:constraint_referenced_ids="textview_movie_details,imageview_poster" />
 
         <ImageButton
             android:id="@+id/button_add_to_playlist"
@@ -126,7 +127,7 @@
             app:layout_constraintTop_toBottomOf="@+id/imageview_hero"
             app:srcCompat="@drawable/ic_bookmark" />
 
-        <za.co.riggaroo.constraintlayoutdemo.DividerView
+        <View
             android:id="@+id/view_divider"
             android:layout_width="0dp"
             android:layout_height="2dp"
@@ -164,7 +165,7 @@
             app:layout_constraintStart_toEndOf="@+id/guideline_vertical_start"
             app:layout_constraintStart_toStartOf="@+id/guideline_vertical_start"
             app:layout_constraintTop_toTopOf="@+id/barrier_bottom_action_buttons"
-            app:rating="4.5"/>
+            app:rating="4.5" />
 
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/fab_type"
@@ -256,7 +257,7 @@
             app:layout_constraintStart_toStartOf="@+id/fab_similar"
             app:layout_constraintTop_toBottomOf="@+id/fab_similar" />
 
-        <za.co.riggaroo.constraintlayoutdemo.DividerView
+        <View
             android:id="@+id/view_divider_below"
             android:layout_width="0dp"
             android:layout_height="2dp"
@@ -285,4 +286,4 @@
             app:layout_constraintStart_toStartOf="@+id/guideline_vertical_start"
             app:layout_constraintTop_toBottomOf="@+id/textview_genre" />
     </android.support.constraint.ConstraintLayout>
-</android.support.v4.widget.NestedScrollView>
+<!--</android.support.v4.widget.NestedScrollView>-->
