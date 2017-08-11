@@ -19,7 +19,7 @@ public class RatingView extends FrameLayout {
 
     public RatingView(@NonNull Context context) {
         super(context);
-        //init();
+        init(null);
     }
 
     public RatingView(@NonNull Context context, @Nullable AttributeSet attrs) {
