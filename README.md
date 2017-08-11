@@ -6,7 +6,7 @@ The purpose of this layout is to showcase how to use ConstraintLayout to solve a
 
 The app has no functionality but to display a layout. 
 
-![Constraint Layout](art/ConstraintLayoutDemo.jpg "Constraint Layout Demo")
+![Constraint Layout](art/ConstraintLayoutDemo.png "Constraint Layout Demo")
 
 
 This was presented with these slides https://speakerdeck.com/riggaroo/mastering-android-layouts-workshop-slides
