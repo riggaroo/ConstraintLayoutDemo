@@ -12,4 +12,7 @@
     <string name="content_description_add_playlist">Add to watchlist</string>
     <string name="content_description_poster">Movie Poster Image</string>
     <string name="content_description_hero_image">Hero Image</string>
+    <string name="email">EMAIL</string>
+    <string name="call">CALL</string>
+    <string name="navigate">NAVIGATE</string>
 </resources>

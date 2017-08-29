@@ -6,4 +6,8 @@
     <color name="gray_divider">#eeeeee</color>
     <color name="white">#ffffff</color>
     <color name="light_gray">#eeeeee</color>
+
+    <color name="divider_gray">#eeeeee</color>
+    <color name="button_blue">#3983f2</color>
+    <color name="caption_text_color">#555555</color>
 </resources>
