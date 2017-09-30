@@ -5,28 +5,30 @@ import android.support.constraint.ConstraintLayout
 import android.support.constraint.ConstraintSet
 import android.support.v7.app.AppCompatActivity
 import android.transition.TransitionManager
-import android.widget.ImageView
+import android.widget.Button
 
-class MainActivity : AppCompatActivity() {
-
-    var isLargeLayout = false
+/**
+ * @author rebeccafranks
+ * @since 2017/09/30.
+ */
+class CupcakeActivity : AppCompatActivity() {
+    private var isLargeLayout: Boolean = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-
         val constraintSet1 = ConstraintSet()
         val constraintSet2 = ConstraintSet()
 
-        constraintSet2.clone(this, R.layout.activity_movie_rental_large)
-        setContentView(R.layout.activity_movie_rental)
+        constraintSet2.clone(this, R.layout.animation_example_2_transition)
+        setContentView(R.layout.animation_example_2)
 
         val constraintLayout = findViewById<ConstraintLayout>(R.id.constraint_layout)
         constraintSet1.clone(constraintLayout)
 
-        val posterImageView = findViewById<ImageView>(R.id.imageview_poster)
+        val bakeButton = findViewById<Button>(R.id.button_bake)
 
-        posterImageView.setOnClickListener {
+        bakeButton.setOnClickListener {
 
             TransitionManager.beginDelayedTransition(constraintLayout)
             if (isLargeLayout) {
@@ -36,5 +38,6 @@ class MainActivity : AppCompatActivity() {
             }
             isLargeLayout = !isLargeLayout
         }
+
     }
 }
