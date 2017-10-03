@@ -12,7 +12,8 @@ import android.widget.Button
  * @since 2017/09/30.
  */
 class CupcakeActivity : AppCompatActivity() {
-    private var isLargeLayout: Boolean = false
+
+    private var isLargeLayout = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

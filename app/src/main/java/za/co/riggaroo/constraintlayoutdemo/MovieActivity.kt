@@ -9,7 +9,7 @@ import android.widget.ImageView
 
 class MovieActivity : AppCompatActivity() {
 
-    var isLargeLayout = false
+    private var isLargeLayout = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
