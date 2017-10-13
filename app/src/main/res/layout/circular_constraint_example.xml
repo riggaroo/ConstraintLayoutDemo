@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewCentre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Clock" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="24sp"
+        app:layout_constraintCircle="@+id/textViewCentre"
+        app:layout_constraintCircleAngle="30"
+        app:layout_constraintCircleRadius="90dp"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:textSize="24sp"
+        app:layout_constraintCircle="@+id/textViewCentre"
+        app:layout_constraintCircleAngle="60"
+        app:layout_constraintCircleRadius="90dp"
+        tools:layout_editor_absoluteX="228dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:textSize="24sp"
+        app:layout_constraintCircle="@+id/textViewCentre"
+        app:layout_constraintCircleAngle="90"
+        app:layout_constraintCircleRadius="90dp"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:textSize="24sp"
+        app:layout_constraintCircle="@+id/textViewCentre"
+        app:layout_constraintCircleAngle="120"
+        app:layout_constraintCircleRadius="90dp"
+        tools:layout_editor_absoluteX="228dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:textSize="24sp"
+        app:layout_constraintCircle="@+id/textViewCentre"
+        app:layout_constraintCircleAngle="150"
+        app:layout_constraintCircleRadius="90dp"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:textSize="24sp"
+        app:layout_constraintCircle="@+id/textViewCentre"
+        app:layout_constraintCircleAngle="180"
+        app:layout_constraintCircleRadius="90dp"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="334dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7"
+        android:textSize="24sp"
+        app:layout_constraintCircle="@+id/textViewCentre"
+        app:layout_constraintCircleAngle="210"
+        app:layout_constraintCircleRadius="90dp"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8"
+        android:textSize="24sp"
+        app:layout_constraintCircle="@+id/textViewCentre"
+        app:layout_constraintCircleAngle="240"
+        app:layout_constraintCircleRadius="90dp"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9"
+        android:textSize="24sp"
+        app:layout_constraintCircle="@+id/textViewCentre"
+        app:layout_constraintCircleAngle="270"
+        app:layout_constraintCircleRadius="90dp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10"
+        android:textSize="24sp"
+        app:layout_constraintCircle="@+id/textViewCentre"
+        app:layout_constraintCircleAngle="300"
+        app:layout_constraintCircleRadius="90dp"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11"
+        android:textSize="24sp"
+        app:layout_constraintCircle="@+id/textViewCentre"
+        app:layout_constraintCircleAngle="330"
+        app:layout_constraintCircleRadius="90dp"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12"
+        android:textSize="24sp"
+        app:layout_constraintCircle="@+id/textViewCentre"
+        app:layout_constraintCircleAngle="0"
+        app:layout_constraintCircleRadius="90dp"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+</android.support.constraint.ConstraintLayout>

@@ -18,6 +18,9 @@ class OptionsActivity : AppCompatActivity() {
         buttonMovie.setOnClickListener { startActivity(Intent(this, MovieActivity::class.java)) }
         val cupcakeDemo = findViewById<Button>(R.id.button_cupcake)
         cupcakeDemo.setOnClickListener { startActivity(Intent(this, CupcakeActivity::class.java)) }
+
+        val circularConstraintDemo = findViewById<Button>(R.id.button_circular_demo)
+        circularConstraintDemo.setOnClickListener { startActivity(Intent(this, CircularConstraintActivity::class.java)) }
     }
 }
 

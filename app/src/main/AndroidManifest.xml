@@ -19,9 +19,8 @@
         <activity android:name=".MovieActivity">
 
         </activity>
-        <activity android:name=".CupcakeActivity">
-
-        </activity>
+        <activity android:name=".CupcakeActivity" />
+        <activity android:name=".CircularConstraintActivity" />
     </application>
 
 </manifest>
