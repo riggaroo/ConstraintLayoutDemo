@@ -16,4 +16,7 @@
     <string name="call">CALL</string>
     <string name="navigate">NAVIGATE</string>
     <string name="option_circular_demo">Circular Demo</string>
+    <string name="saturation">Saturation</string>
+    <string name="contrast">Contrast</string>
+    <string name="warmth">Warmth</string>
 </resources>
