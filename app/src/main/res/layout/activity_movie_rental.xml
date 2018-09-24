@@ -4,12 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">-->
 
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/constraint_layout"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:id="@+id/constraint_layout"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent">
 
     <ImageView
         android:id="@+id/imageview_hero"
@@ -41,7 +41,7 @@
         app:layout_constraintVertical_bias="0.52"
         app:srcCompat="@drawable/poster" />
 
-    <android.support.constraint.Guideline
+    <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline_vertical_start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -101,14 +101,14 @@
         app:layout_constraintTop_toTopOf="@+id/barrier_bottom_poster"
         tools:text="BUY FROM R127,99" />
 
-    <android.support.constraint.Guideline
+    <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline_vertical_end"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.96" />
 
-    <android.support.constraint.Barrier
+    <androidx.constraintlayout.widget.Barrier
         android:id="@+id/barrier_bottom_poster"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -137,7 +137,7 @@
         app:layout_constraintStart_toStartOf="@+id/guideline_vertical_start"
         app:layout_constraintTop_toTopOf="@+id/barrier_bottom_action_buttons" />
 
-    <android.support.constraint.Barrier
+    <androidx.constraintlayout.widget.Barrier
         android:id="@+id/barrier_bottom_action_buttons"
         android:layout_width="wrap_content"
         android:layout_height="1dp"
@@ -167,7 +167,7 @@
         app:layout_constraintTop_toTopOf="@+id/barrier_bottom_action_buttons"
         app:rating="4.5" />
 
-    <android.support.design.widget.FloatingActionButton
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab_type"
         android:layout_width="56dp"
         android:layout_height="56dp"
@@ -180,7 +180,7 @@
         app:layout_constraintTop_toTopOf="@+id/barrier_bottom_action_buttons"
         app:srcCompat="@drawable/ic_family" />
 
-    <android.support.design.widget.FloatingActionButton
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab_rotten_tomato"
         android:layout_width="56dp"
         android:layout_height="56dp"
@@ -194,7 +194,7 @@
         app:layout_constraintTop_toTopOf="@+id/barrier_bottom_action_buttons"
         app:srcCompat="@drawable/tomato" />
 
-    <android.support.design.widget.FloatingActionButton
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab_similar"
         android:layout_width="56dp"
         android:layout_height="56dp"
@@ -285,4 +285,4 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline_vertical_start"
         app:layout_constraintTop_toBottomOf="@+id/textview_genre" />
-</android.support.constraint.ConstraintLayout><!--</android.support.v4.widget.NestedScrollView>-->
+</androidx.constraintlayout.widget.ConstraintLayout><!--</android.support.v4.widget.NestedScrollView>-->
