@@ -8,6 +8,8 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.request.RequestOptions
 import kotlinx.android.synthetic.main.imagefilterview.*
 
+
+
 class ImageFilterViewActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,6 +22,20 @@ class ImageFilterViewActivity : AppCompatActivity() {
             .into(imageView)
 
         setupSeekBars()
+
+   /*     val bitmap = Bitmap.createBitmap(original.getWidth(), original.getHeight(), Bitmap.Config.ARGB_8888)
+        val canvas = Canvas(bitmap)
+
+        val paint = Paint()
+        paint.colorFilter = ColorMatrixColorFilter(
+            ColorMatrix(floatArrayOf(
+                -1f,  0f,  0f,  0f, 255f,
+                0f, -1f,  0f,  0f, 255f,
+                0f,  0f, -1f,  0f, 255f,
+                0f,  0f,  0f,  1f,   0f
+            )))
+        canvas.drawBitmap(original, 0, 0, paint)*/
+
     }
 
     private fun setupSeekBars() {
