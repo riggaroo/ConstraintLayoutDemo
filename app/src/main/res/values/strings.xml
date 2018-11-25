@@ -19,4 +19,6 @@
     <string name="saturation">Saturation</string>
     <string name="contrast">Contrast</string>
     <string name="warmth">Warmth</string>
+    <string name="button_start">Start</string>
+    <string name="button_end">End</string>
 </resources>

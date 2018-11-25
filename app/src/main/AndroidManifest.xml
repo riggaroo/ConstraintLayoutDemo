@@ -23,6 +23,7 @@
         <activity android:name=".CupcakeActivity" />
         <activity android:name=".CircularConstraintActivity" />
         <activity android:name=".ImageFilterViewActivity"/>
+        <activity android:name=".ConstraintLayoutStatesExampleActivity"/>
     </application>
 
 </manifest>

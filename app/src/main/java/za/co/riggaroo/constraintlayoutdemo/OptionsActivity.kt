@@ -2,8 +2,9 @@ package za.co.riggaroo.constraintlayoutdemo
 
 import android.content.Intent
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
+import kotlinx.android.synthetic.main.activity_options.*
 
 /**
  * @author rebeccafranks
@@ -23,7 +24,13 @@ class OptionsActivity : AppCompatActivity() {
         circularConstraintDemo.setOnClickListener { startActivity(Intent(this, CircularConstraintActivity::class.java)) }
 
         val imageFilterDemo = findViewById<Button>(R.id.buttonImageFilterView)
-        imageFilterDemo.setOnClickListener {startActivity(Intent(this, ImageFilterViewActivity::class.java))  }
+        imageFilterDemo.setOnClickListener {
+            startActivity(Intent(this, ImageFilterViewActivity::class.java))
+        }
+
+        buttonClStates.setOnClickListener {
+            startActivity(Intent(this, ConstraintLayoutStatesExampleActivity::class.java))
+        }
     }
 }
 
