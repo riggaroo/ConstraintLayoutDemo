@@ -31,6 +31,10 @@ class OptionsActivity : AppCompatActivity() {
         buttonClStates.setOnClickListener {
             startActivity(Intent(this, ConstraintLayoutStatesExampleActivity::class.java))
         }
+
+        buttonSwipeRecyclerView.setOnClickListener {
+            startActivity(Intent(this, RecyclerViewSwipeMotionActivity::class.java))
+        }
     }
 }
 
