@@ -3,7 +3,8 @@
 Different examples of how to use ConstraintLayout for different purposes. 
 - Covering Circular Constraints
 - Barriers, Guidelines, Constraints etc
-- *Newest Sample* ImageFilterView
+- ImageFilterView
+- ConstraintLayoutStates
 
 The purpose of these layouts is to showcase how to use ConstraintLayout to solve a complex layout.
 
