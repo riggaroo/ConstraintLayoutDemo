@@ -8,7 +8,7 @@ import kotlinx.android.synthetic.main.activity_cl_states_end.*
 
 class ConstraintLayoutStatesExampleActivity : AppCompatActivity() {
 
-    val handler = Handler()
+    private val handler = Handler()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
