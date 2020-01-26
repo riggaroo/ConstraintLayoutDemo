@@ -35,6 +35,10 @@ class OptionsActivity : AppCompatActivity() {
         buttonSwipeRecyclerView.setOnClickListener {
             startActivity(Intent(this, RecyclerViewSwipeMotionActivity::class.java))
         }
+
+        buttonFlow.setOnClickListener {
+            startActivity(Intent(this, FlowActivity::class.java))
+        }
     }
 }
 
