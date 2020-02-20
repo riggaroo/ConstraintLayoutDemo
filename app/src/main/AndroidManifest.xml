@@ -24,7 +24,7 @@
         <activity android:name=".CircularConstraintActivity" />
         <activity android:name=".ImageFilterViewActivity"/>
         <activity android:name=".ConstraintLayoutStatesExampleActivity"/>
-        <activity android:name=".BottomNavAnimationActivity"/>
+        <activity android:name=".MotionLayoutBarrierActivity"/>
         <activity android:name=".FlowActivity"/>
         <activity android:name=".RecyclerViewSwipeMotionActivity">
             <intent-filter>

@@ -39,6 +39,9 @@ class OptionsActivity : AppCompatActivity() {
         buttonFlow.setOnClickListener {
             startActivity(Intent(this, FlowActivity::class.java))
         }
+        buttonBarrierBug.setOnClickListener {
+            startActivity(Intent(this, MotionLayoutBarrierActivity::class.java))
+        }
     }
 }
 
